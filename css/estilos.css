@@ -13,6 +13,27 @@ body {
     font-size: 12px;    
 }
 
+@media (min-width: 400px){
+    body {
+      font-size: 12px;
+    }
+}
+
+@media (min-width: 600px){
+    body {
+      font-size: 14px ;
+    } 
+  }
+
+  @media (min-width: 1200px){
+    body {
+      font-size: 14px ;
+    }
+    .img-perfil {
+      size: 100px;
+    }
+  }
+
 header{
     height: 100vh;
     display: flex;
@@ -33,11 +54,12 @@ header{
     border-radius: 200px 200px 200px 200px;
 }
 
-@media (max-width: 440px) {
+/* @media (max-width: 440px) {
     .menu li {
-        padding: 15px;
+        padding: 12px;
+
     }
-} 
+}  */
 
 .menu ul {
     display: flex;
@@ -69,11 +91,11 @@ header{
     background-color: rgba(199, 200, 245, 0.7);
     padding: 10px;
 }
-@media (max-width: 440px) {
+/* @media (max-width: 440px) {
     .links li {
         padding: 15px;
     }
-} 
+}  */
 
 .links li {
     list-style: none;
@@ -164,17 +186,51 @@ a {
     min-height: 100vh;
 }
 
-@media (min-width: 900px){
+/* @media (min-width: 900px){
+    .formacao,
+    .sobre,
+    .projetos{
+      justify-content: center;
+      max-width: 900px;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  } */
+
+
+/* @media (min-width: 560px){
+    .formacao .grid{
+    margin-top: 5em;
+    grid-template-columns: 200px 200px;
+    justify-content: center;
+    align-content: center;
+    height: auto;
+    
+    } */
+
+/* @media (min-width: 460px){
     .formacao,
     .sobre,
     .competencias,
     .projetos{
     justify-content: center;
-    max-width: 900px;
+    max-width: 460px;
     margin-left: auto;
     margin-right: auto;
 }
-}
+} */
+
+@media (min-width: 900px){
+    .formacao,
+    .sobre,
+    .competencias,
+    .projetos{
+      justify-content: center;
+      max-width: 900px;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  }
 
 .grid{  
     grid-template-columns: 240px;
@@ -233,6 +289,10 @@ a {
     transition: transform 0.5s;
 }
 
+.formacao  a:hover {
+    text-decoration: underline;
+}
+
 .projetos .img{
     width: 115%;
     height: 85%;
@@ -271,6 +331,14 @@ figcaption {
     height: auto;
     
     }
+    .competencias .grid{
+        margin-top: 5em;
+        grid-template-columns: 200px 200px;
+        justify-content: center;
+        align-content: center;
+        height: auto;
+        
+    }
     .projetos .grid{
     grid-template-columns: 240px 240px;
     justify-content: center;
@@ -293,6 +361,13 @@ figcaption {
     justify-content: center;
     align-content: center;
     height: calc(100vh - 100px - 1em);
+    }
+    .competencias .grid{
+        grid-template-columns: 200px 200px;
+        justify-content: center;
+        align-content: center;
+        height: auto;
+        
     }
     .formacao .grid{
     grid-template-columns: 200px 200px;
@@ -318,6 +393,13 @@ figcaption {
     justify-content: center;
     align-content: center;
     height: calc(100vh - 100px -1em);
+    }
+    .competencias .grid{
+        grid-template-columns: 200px 200px;
+        justify-content: center;
+        align-content: center;
+        height: auto;
+        
     }
     .formacao .grid{
     margin-top: 6em;
@@ -347,7 +429,7 @@ figcaption {
 }  
 
 .sobre .me {
-    margin-top: 20em;
+    margin-top: 10em;
 }
 
 footer{
@@ -362,5 +444,4 @@ footer{
 .fab{
     font-size: 2em;
     color: whitesmoke;
-
 }
