@@ -112,7 +112,7 @@
     font-size: 1.5em;
     text-align: center;
     color: whitesmoke;
-    font-family: "Helvetica Neue", Helvetica;
+    font-family: 'Kalam', cursive;
   }
 
   .menu-2 {
@@ -147,7 +147,7 @@
     margin-bottom: 7px;
   }
   
-  
+
   .formacao,
   .sobre,
   .projetos{
@@ -188,6 +188,7 @@
     grid-template-columns: 130px 130px;
     justify-content: center;
     align-content: center;
+    font-size: larger;
     height: calc(100vh - 100px -1em);
   }
 
@@ -319,7 +320,6 @@
   color: whitesmoke;
   font-family: "Helvetica Neue", Helvetica;
   font-size: 1.7em;
-  text-indent: 1em;
   text-align: justify;
 }  
 
