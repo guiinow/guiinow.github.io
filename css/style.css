@@ -79,7 +79,7 @@
     text-decoration: none;
     font-size: 1em;
     font-family: "Helvetica Neue", Helvetica;
-    transition: background-color 0.5s;
+    transition: background-color 0.2s;
   }
   .menu a:hover{
     text-decoration: none;
@@ -195,11 +195,11 @@
 
   .formacao .grid{
     gap: 4em 4em;
-    margin-top: 40px;
+    margin-top: 30px;
     grid-template-columns: 150px ;
     justify-content: center;
     align-content: center;
-    height: auto;
+    height: 35em;
   }
 
   .competencias figure,
