@@ -189,7 +189,8 @@
     justify-content: center;
     align-content: center;
     font-size: larger;
-    height: calc(100vh - 100px -1em);
+    height: 35em;
+    /* height: calc(100vh - 100px -1em); */
   }
 
   .formacao .grid{
