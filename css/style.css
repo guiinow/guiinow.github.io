@@ -199,7 +199,7 @@
     grid-template-columns: 150px ;
     justify-content: center;
     align-content: center;
-    height: 35em;
+    height: auto;
   }
 
   .competencias figure,
