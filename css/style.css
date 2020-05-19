@@ -5,6 +5,9 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
 
   body {
     background-image: url('https://wallpapercave.com/wp/wp3363602.jpg');
@@ -136,7 +139,7 @@
     font-size: 2em;
     text-align: center;
     color: whitesmoke;
-    font-family: "Helvetica Neue", Helvetica;
+    font-family: 'Comfortaa', cursive;
     margin-bottom: 3em;
     margin-top: 20px;
   }
