@@ -101,7 +101,7 @@
   }
 
   .site-title {
-    font-size: 4em;
+    font-size: 3em;
     text-align: center;
     color: whitesmoke;
     font-family: "Helvetica Neue", Helvetica;
@@ -109,7 +109,7 @@
   
   .site-subtitle{
     line-height: 1.5em;
-    font-size: 2em;
+    font-size: 1.5em;
     text-align: center;
     color: whitesmoke;
     font-family: 'Kalam', cursive;
@@ -340,3 +340,20 @@
 
 }
 
+@media (min-width: 430px) {
+    .site-title {
+      font-size: 4em;
+      text-align: center;
+      color: whitesmoke;
+      font-family: "Helvetica Neue", Helvetica;
+    } 
+
+    .site-subtitle{
+      line-height: 1.5em;
+      font-size: 2em;
+      text-align: center;
+      color: whitesmoke;
+      font-family: 'Kalam', cursive;
+    }
+
+}
