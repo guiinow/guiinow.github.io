@@ -104,7 +104,7 @@
     font-size: 3em;
     text-align: center;
     color: whitesmoke;
-    font-family: "Helvetica Neue", Helvetica;
+    font-family: 'Comfortaa', cursive;
   } 
   
   .site-subtitle{
@@ -137,7 +137,7 @@
     text-align: center;
     color: whitesmoke;
     font-family: "Helvetica Neue", Helvetica;
-    margin-bottom: 20px;
+    margin-bottom: 4em;
     margin-top: 20px;
   }
 
@@ -345,7 +345,7 @@
       font-size: 4em;
       text-align: center;
       color: whitesmoke;
-      font-family: "Helvetica Neue", Helvetica;
+      font-family: 'Comfortaa', cursive;
     } 
 
     .site-subtitle{
