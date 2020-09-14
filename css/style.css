@@ -10,8 +10,6 @@ html {
 }
 
   body {
-    background-image: url('https://wallpapercave.com/wp/wp3363602.jpg');
-    background-size: 100vw 100vh;
     height: 100vh;
     font-size: 12px;    
   }
@@ -40,10 +38,26 @@ html {
   }
 
   header{
-    height: 100vh;
+    /* height: 100vh; */
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+
+  .home{
+    background-image: url(../img/landscape.jpg);
+    background-size: 100vw 100vh;
+    height: 100vh;
+  }
+
+  .navbar-nav{
+    margin-left: 60%;
+    
+  }
+
+
+  #container{
+    padding-top: 15%;
   }
 
   .menu{
@@ -155,7 +169,7 @@ html {
     margin-top: 7px;
     margin-bottom: 7px;
   }
-  
+
 
   .formacao,
   .sobre,
@@ -329,6 +343,14 @@ html {
 .projetos a:hover,
 .formacao  a:hover {
   text-decoration: underline;
+}
+
+.sobre,
+.competencias,
+.formacao,
+.projetos{
+  background-image: url('../img/bg-image.jpg');
+  background-size: 100vw 100vh;
 }
 
 .sobre p{
