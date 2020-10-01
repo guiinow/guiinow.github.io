@@ -11,7 +11,8 @@ html {
 
   body {
     height: 100vh;
-    font-size: 12px;    
+    font-size: 12px;   
+    overflow-x: hidden; 
   }
 
   /* se a tela tiver pelo menos 400px vai carregar estes estilos*/
@@ -178,9 +179,13 @@ html {
     min-height: 100vh;
   }
 
-  .competencias{
+  .competencias,
+  .sobre, 
+  .formacao,
+  .projetos{
     padding: 2em;
     min-height: 100vh;
+    min-width: 100vw;
   }
 
   @media (min-width: 900px){
@@ -354,7 +359,8 @@ html {
 }
 
 .sobre p{
-  margin-bottom: 1em;
+  /* margin-bottom: 1em; */
+  margin-left: 5em;
   color: whitesmoke;
   font-family: "Helvetica Neue", Helvetica;
   font-size: 1.7em;
