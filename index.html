@@ -2,20 +2,56 @@
 <html lang="en">
 
 <head>
-  <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+  
+  <!-- meta tags -->
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+
   <title>Guilherme Ferreira</title>
+
+  <!-- Fontes e ícones -->
   <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500&family=Kalam&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css">
   <script src="https://kit.fontawesome.com/3b22aa5327.js" crossorigin="anonymous"></script>
+  
+  <!-- Folhas de estilo -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 </head>
 
 <body id="home">
 
   <header>
-    <nav class="menu">
+
+    <nav class="nav navbar-expand-lg fixed-top p-3 mb-2 navbar-dark bg-dark justify-content-between">
+      <a class="navbar-brand" href="#home">@guiinow</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#sobre">Sobre</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#competencias">Competencias</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#formacao">Formação</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#projetos">Projetos</a>
+          </li>
+         
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+
+    <!-- <nav class="menu">
       <ul>
         <li><a href="#home"><figure><i class="fas fa-house-user"></i></figure></a></li>
         <li><a href="#sobre">Sobre</a></li>
@@ -23,34 +59,35 @@
         <li><a href="#formacao">Formação</a></li>
         <li><a href="#projetos">Projetos</a></li>
       </ul>
-    </nav>
+    </nav> -->
 
     <section class="home">
-      <div>
-        <img class="img-perfil" src="img/profile-picture.jpeg" alt="">
-        <h1 class="site-title">Guilherme Ferreira</h1>
-        <h2 class="site-subtitle">Tupi or not Tupi. That is the question.</h2>  
-      </div>
-    
-      <div class="menu-2">
-        <ul>
+      <div id="container">
+        <div>
+          <img class="img-perfil conteudo" src="img/profile-picture.png" alt="foto de perfil">
+          <h1 class="site-title conteudo">Guilherme Ferreira</h1>
+          <h2 class="site-subtitle conteudo">Tupi or not Tupi. That is the question.</h2>  
+        </div>
+        
+        <div class="menu-2">
+          <ul>
           <li><a href="https://github.com/guiinow" target="blank">
-          <img src="./img/github-logo.png" height="40" width="40"></a></li>
+            <img src="./img/github-logo.png" height="40" width="40"></a></li>
           <li><a href="https://www.linkedin.com/in/guiiferreira/" target="blank">
-          <img src="./img/linkedin-logo.png" height="40" width="40"></a></li>
+            <img src="./img/linkedin-logo.png" height="40" width="40"></a></li>
           <li><a href="https://www.instagram.com/guiinow/" target="blank">
-          <img src="./img/instagram-logo.png" height="40" width="40"></a></li>
+            <img src="./img/instagram-logo.png" height="40" width="40"></a></li>
           <li><a href="http://lattes.cnpq.br/4259983468725543" target="blank">
-          <img src="./img/lattes.png" height="40" width="40"></a></li>
-        </ul>
+            <img src="./img/lattes.png" height="40" width="40"></a></li>
+          </ul>
+        </div>
       </div>
     </section>
-  </header>
 
   <section class="sobre" id="sobre">
     <h2 class="h2-pg">Sobre</h2>
     <p>Desenvolvedor web na empresa Visão Jr. </p>
-    <p>Assessor financeiro, diretor de Marketing e cofundador Lourdes Moda e Lingerie.</p>
+    <p>Assessor financeiro, diretor de Marketing e cofundador da empresa Lourdes Moda e Lingerie.</p>
     <p>Segundo tesoureiro do Rotaract Clube de João Monlevade na gestão 2020-2021.</p>
     <p>Estudante de Engenharia de Computação na Universidade Federal de Ouro Preto.</p>
     <p>Ex-aluno do bacharelado interdisciplinar em Ciência e Tecnologia da Universidade Federal dos Vales do Jequitinhonha e Mucuri.</p>
@@ -135,12 +172,19 @@
         </figure>
 
         <figure>
-          <img class="img" src="./img/lourdes.jpeg" alt="visao-tec">
+          <img class="img" src="./img/lourdes.jpeg" alt="Lourdes moda e lingerie">
           <figcaption>Lourdes moda e lingerie<a href="https://www.instagram.com/lourdesmodalingerie/" target="_blank">@lourdesmodalingerie</a></figcaption>
         </figure>
+
+        
       </div>
   </section>
   
-  <footer class="footer">© 2020 Copyright  - Guilherme Ferreira e <a href="https://wellingtonengps.github.io/wellingtonps/" target="_blank">Wellington P. Silva</a></footer>
+ 
+  <!-- Bootstrap scripts -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
 </body>
 </html>
