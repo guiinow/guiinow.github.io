@@ -10,9 +10,22 @@
   text-align: center;
 }
 
-.projetos figure .visao {
-  width: 56%;
+.projetos figure .iniciacao {
+  width: 102%;
 }
+.projetos figure .artigo {
+  width: 106%;
+}
+.projetos figure .vtec {
+  width: 125%;
+}
+.projetos figure .lourdes {
+  width: 111%;
+}
+.projetos figure .visao {
+  width: 58%;
+}
+
 
 .projetos .img {
   width: 100%;
@@ -37,4 +50,3 @@
   align-content: center;
   height: calc(100vh - 100px -1em);
 }
-
