@@ -24,3 +24,15 @@
   background-image: url("../img/bg-image.jpg");
   background-size: 100vw 100vh;
 }
+
+.fab {
+  font-size: 2em;
+  color: whitesmoke;
+}
+
+figcaption {
+  color: whitesmoke;
+  font-family: "Helvetica Neue", Helvetica;
+  font-size: medium;
+  text-align: center;
+}
