@@ -1,0 +1,31 @@
+.menu li:hover {
+  background-color: rgba(85, 87, 211, 0.8);
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+.menu a {
+  display: block;
+  padding: 10px 10px;
+}
+
+.menu {
+  margin-top: 6em;
+  background-color: rgba(20, 19, 19, 0.7);
+  border-radius: 25px 25px 25px 25px;
+}
+
+.menu li {
+  list-style: none;
+}
+
+.menu ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.menu a {
+  display: flex;
+  margin-top: 7px;
+  margin-bottom: 7px;
+}

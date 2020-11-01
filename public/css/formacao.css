@@ -1,0 +1,51 @@
+.formacao {
+  padding: 2em;
+  min-height: 100vh;
+}
+
+.formacao {
+  padding: 2em;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+
+.formacao .grid {
+  gap: 4em 4em;
+  margin-top: 30px;
+  grid-template-columns: 150px;
+  justify-content: center;
+  align-content: center;
+  height: auto;
+}
+
+.formacao figure {
+  text-align: center;
+}
+
+.formacao .img {
+  width: 100%;
+  right: 100%;
+  transition: transform 0.5s;
+}
+
+.formacao p {
+  margin-bottom: 1em;
+  color: whitesmoke;
+  font-family: "Helvetica Neue", Helvetica;
+  font-size: 1.5em;
+  text-indent: 1em;
+  width: auto;
+}
+
+.formacao .img:hover {
+  transform: scale(1.05);
+}
+
+.formacao a:hover {
+  text-decoration: underline;
+}
+
+.formacao {
+  background-image: url("../img/bg-image.jpg");
+  background-size: 100vw 100vh;
+}
