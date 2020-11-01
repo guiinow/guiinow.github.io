@@ -1,42 +1,27 @@
-@media (min-width: 900px) {
-  .sobre {
-    justify-content: center;
-    max-width: 900px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-
 /* se a tela tiver pelo menos 400px vai carregar estes estilos*/
 @media (min-width: 400px) {
+
   body {
     font-size: 12px;
   }
+  
+
 }
 
-/*breakpoint*/
-@media (min-width: 600px) {
-  body {
-    font-size: 14px;
+@media (min-width: 430px) {
+  .site-title {
+    font-size: 4em;
+    text-align: center;
+    color: whitesmoke;
+    font-family: "Comfortaa", cursive;
   }
-}
 
-@media (min-width: 1200px) {
-  body {
-    font-size: 14px;
-  }
-  .img-perfil {
-    size: 100px;
-  }
-}
-
-@media (min-width: 900px) {
-  .formacao,
-  .projetos {
-    justify-content: center;
-    max-width: 900px;
-    margin-left: auto;
-    margin-right: auto;
+  .site-subtitle {
+    line-height: 1.5em;
+    font-size: 2em;
+    text-align: center;
+    color: whitesmoke;
+    font-family: "Kalam", cursive;
   }
 }
 
@@ -64,6 +49,12 @@
   }
 }
 
+@media (min-width: 600px) {
+  body {
+    font-size: 14px;
+  }
+}
+
 @media (min-width: 800px) {
   .projetos .grid {
     grid-template-columns: 220px 220px;
@@ -88,6 +79,14 @@
 }
 
 @media (min-width: 900px) {
+  .formacao,
+  .projetos,
+  .sobre {
+    justify-content: center;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+  }
   .projetos .grid {
     gap: 4em;
     grid-template-columns: 290px 290px;
@@ -110,21 +109,16 @@
     align-content: center;
     height: calc(100vh - 100px -1em);
   }
+  .navbar-brand {
+    margin-left: 4rem;
+  }
 }
 
-@media (min-width: 430px) {
-  .site-title {
-    font-size: 4em;
-    text-align: center;
-    color: whitesmoke;
-    font-family: "Comfortaa", cursive;
+@media (min-width: 1200px) {
+  body {
+    font-size: 14px;
   }
-
-  .site-subtitle {
-    line-height: 1.5em;
-    font-size: 2em;
-    text-align: center;
-    color: whitesmoke;
-    font-family: "Kalam", cursive;
+  .img-perfil {
+    size: 100px;
   }
 }

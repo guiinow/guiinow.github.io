@@ -15,27 +15,6 @@ body {
   overflow-x: hidden;
 }
 
-header {
-  /* height: 100vh; */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.home {
-  background-image: url(../img/landscape.jpg);
-  background-size: 100vw 100vh;
-  height: 100vh;
-}
-
-.navbar-nav {
-  margin-left: 60%;
-}
-
-#container {
-  padding-top: 15%;
-}
-
 figure a {
   color: black;
   text-decoration: none;
@@ -52,30 +31,6 @@ a {
   transition: background-color 0.2s;
 }
 
-.img-perfil {
-  border-radius: 700px 700px 700px 700px;
-  display: block;
-  margin-bottom: 20px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 200px;
-  height: 200px;
-}
-
-.site-title {
-  font-size: 3em;
-  text-align: center;
-  color: whitesmoke;
-  font-family: "Comfortaa", cursive;
-}
-
-.site-subtitle {
-  line-height: 1.5em;
-  font-size: 1.5em;
-  text-align: center;
-  color: whitesmoke;
-  font-family: "Kalam", cursive;
-}
 
 .h2-pg {
   line-height: 1.2em;
