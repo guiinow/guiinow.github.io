@@ -30,6 +30,18 @@
   <link rel="stylesheet" href="./public/css/navbar.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 
+  <!-- Scripts  -->
+  <script type="text/javascript" src="./public/scripts/main.js"></script>
+
+   <!--Jquery-->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+   <!--Floating WhatsApp css-->
+   <link rel="stylesheet" href="https://rawcdn.githack.com/rafaelbotazini/floating-whatsapp/3d18b26d5c7d430a1ab0b664f8ca6b69014aed68/floating-wpp.min.css">
+   <!--Floating WhatsApp javascript-->
+   <script type="text/javascript" src="https://rawcdn.githack.com/rafaelbotazini/floating-whatsapp/3d18b26d5c7d430a1ab0b664f8ca6b69014aed68/floating-wpp.min.js"></script>
+
+   
+
 </head>
 
 <body id="home">
@@ -44,16 +56,16 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#sobre">Sobre</a>
+            <a class="nav-link" href="#sobre" onclick="selectImage(event)" type="link">Sobre</a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" href="#competencias">Competencias</a>
+            <a class="nav-link" href="#competencias" onclick="selectImage(event)" type="link">Competencias</a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" href="#formacao">Formação</a>
+            <a class="nav-link" href="#formacao" onclick="selectImage(event)" type="link">Formação</a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" href="#projetos">Projetos</a>
+            <a class="nav-link" href="#projetos" onclick="selectImage(event)" type="link">Projetos</a>
           </li>
          
         </ul>
@@ -69,7 +81,9 @@
           <h1 class="site-title conteudo">Guilherme Ferreira</h1>
           <h2 class="site-subtitle conteudo">Tupi or not Tupi. That is the question.</h2>  
         </div>
-        
+
+        <div id='WAButton'></div>
+
         <div class="menu">
           <ul>
           <li><a href="https://github.com/guiinow" title="GitHub" target="blank">
@@ -184,6 +198,20 @@
       </div>
   </section>
 
+  <script type="text/javascript">  
+        $('#WAButton').floatingWhatsApp({
+            phone: '5533999428324', //WhatsApp  phone number 
+            headerTitle: 'Guilherme Ferreira', //Popup Title
+            popupMessage: 'Olá, vamos conversar?', //Popup Message
+            showPopup: true, //Enables popup display
+            buttonImage: '<img src="./public/img/whatsapp.svg"/>', //Button Image
+            //headerColor: 'crimson', //Custom header color
+            //backgroundColor: 'crimson', //Custom background button color
+            position: "right", //Position: left | right
+            size: 72,
+            zIndex: 10
+        });
+    </script> 
 
   <!-- Bootstrap scripts -->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
