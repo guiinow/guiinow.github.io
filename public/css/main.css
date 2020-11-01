@@ -1,0 +1,175 @@
+/*soft reset do css*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  height: 100vh;
+  font-size: 12px;
+  overflow-x: hidden;
+}
+
+header {
+  /* height: 100vh; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home {
+  background-image: url(../img/landscape.jpg);
+  background-size: 100vw 100vh;
+  height: 100vh;
+}
+
+.navbar-nav {
+  margin-left: 60%;
+}
+
+#container {
+  padding-top: 15%;
+}
+
+.menu {
+  background-color: rgba(46, 49, 49, 1);
+  position: fixed;
+  width: 100vw;
+  top: 0;
+  z-index: 1;
+}
+
+.menu li {
+  list-style: none;
+}
+
+.menu-2 li:hover {
+  background-color: rgba(85, 87, 211, 0.8);
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+.menu ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.menu a {
+  display: block;
+  padding: 10px 10px;
+}
+
+figure a {
+  color: black;
+  text-decoration: none;
+  font-size: 1em;
+  font-family: "Helvetica Neue", Helvetica;
+  transition: background-color 0.5s;
+}
+
+a {
+  color: whitesmoke;
+  text-decoration: none;
+  font-size: 1em;
+  font-family: "Helvetica Neue", Helvetica;
+  transition: background-color 0.2s;
+}
+.menu a:hover {
+  text-decoration: none;
+  background-color: rgba(112, 128, 144, 0.2);
+}
+
+.menu a:active {
+  background-color: rgba(112, 128, 144, 0.2);
+}
+
+.img-perfil {
+  border-radius: 700px 700px 700px 700px;
+  display: block;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  height: 200px;
+}
+
+.site-title {
+  font-size: 3em;
+  text-align: center;
+  color: whitesmoke;
+  font-family: "Comfortaa", cursive;
+}
+
+.site-subtitle {
+  line-height: 1.5em;
+  font-size: 1.5em;
+  text-align: center;
+  color: whitesmoke;
+  font-family: "Kalam", cursive;
+}
+
+.menu-2 {
+  margin-top: 6em;
+  background-color: rgba(20, 19, 19, 0.7);
+  border-radius: 25px 25px 25px 25px;
+}
+
+.menu-2 li {
+  list-style: none;
+}
+
+.menu-2 ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.h2-pg {
+  line-height: 1.2em;
+  font-size: 2em;
+  text-align: center;
+  color: whitesmoke;
+  font-family: "Comfortaa", cursive;
+  margin-bottom: 3em;
+  margin-top: 20px;
+}
+
+.menu-2 a {
+  display: flex;
+  margin-top: 7px;
+  margin-bottom: 7px;
+}
+
+.grid {
+  grid-template-columns: 240px;
+  display: grid;
+  gap: 2em;
+  justify-content: center;
+  align-content: center;
+  height: calc(100vh - 100px -1em);
+}
+
+figcaption {
+  color: whitesmoke;
+  font-family: "Helvetica Neue", Helvetica;
+  font-size: medium;
+  text-align: center;
+}
+
+.footer a,
+.footer {
+  color: black;
+  font-family: "Helvetica Neue", Helvetica;
+  text-align: center;
+  background-color: rgba(112, 128, 144, 0.1);
+  font-size: 1em;
+}
+
+.fab {
+  font-size: 2em;
+  color: whitesmoke;
+}

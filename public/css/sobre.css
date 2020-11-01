@@ -1,0 +1,28 @@
+.sobre p {
+  /* margin-bottom: 1em; */
+  /* margin-left: 5em; */
+  color: whitesmoke;
+  font-family: "Helvetica Neue", Helvetica;
+  font-size: 1.7em;
+}
+
+.sobre .fas {
+  font-size: 2em;
+  color: whitesmoke;
+}
+
+.sobre {
+  padding: 2em;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+
+.sobre {
+  background-image: url("../img/bg-image.jpg");
+  background-size: 100vw 100vh;
+}
+
+.sobre {
+  padding: 2em;
+  min-height: 100vh;
+}
