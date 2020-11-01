@@ -15,6 +15,18 @@ body {
   overflow-x: hidden;
 }
 
+#projetos,
+#formacao,
+#sobre,
+#competencias {
+  padding: 5em;
+
+}
+
+figcaption a{
+  font-size: 17px;
+  color: black;
+}
 
 .h2-pg {
   line-height: 1.2em;

@@ -1,5 +1,17 @@
+.projetos {
+  background-image: url("../img/bg-image.jpg");
+  background-size: 100vw 100vh;
+  padding: 2em;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+
 .projetos figure {
   text-align: center;
+}
+
+.projetos figure .visao {
+  width: 56%;
 }
 
 .projetos .img {
@@ -17,18 +29,12 @@
   text-decoration: underline;
 }
 
-.projetos {
-  background-image: url("../img/bg-image.jpg");
-  background-size: 100vw 100vh;
+#grid-projetos {
+  grid-template-columns: 240px 240px 240px;
+  display: grid;
+  gap: 3em 3em;
+  justify-content: center;
+  align-content: center;
+  height: calc(100vh - 100px -1em);
 }
 
-.projetos {
-  padding: 2em;
-  min-height: 100vh;
-}
-
-.projetos {
-  padding: 2em;
-  min-height: 100vh;
-  min-width: 100vw;
-}

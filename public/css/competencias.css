@@ -7,8 +7,8 @@
 .competencias .grid {
   margin-top: 40px;
   display: grid;
-  gap: 2em 3em;
-  grid-template-columns: 130px 130px;
+  gap: 3em 3em;
+  grid-template-columns: 130px 130px 130px 130px;
   justify-content: center;
   align-content: center;
   font-size: larger;

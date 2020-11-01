@@ -1,21 +1,20 @@
-.formacao {
-  padding: 2em;
-  min-height: 100vh;
-}
 
 .formacao {
-  padding: 2em;
   min-height: 100vh;
   min-width: 100vw;
+
+  background-image: url("../img/bg-image.jpg");
+  background-size: 100vw 100vh;
 }
 
+
 .formacao .grid {
-  gap: 4em 4em;
+  gap: 5em 16em;
   margin-top: 30px;
-  grid-template-columns: 150px;
+  grid-template-columns: 150px 150px;
   justify-content: center;
   align-content: center;
-  height: auto;
+  margin-top: 15%;
 }
 
 .formacao figure {
@@ -45,7 +44,3 @@
   text-decoration: underline;
 }
 
-.formacao {
-  background-image: url("../img/bg-image.jpg");
-  background-size: 100vw 100vh;
-}
