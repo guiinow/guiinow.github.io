@@ -1,6 +1,11 @@
 
 
 @media (min-width: 320px) {
+
+  #container {
+    padding-top: 30%;
+  }
+
   #grid-competencias {
     margin-top: 40px;
     display: grid;
@@ -34,6 +39,10 @@
 }
 
 @media (min-width: 768px) {
+
+  #container {
+    padding-top: 30%;
+  }
   #grid-competencias {
     margin-top: 40px;
     display: grid;
@@ -114,7 +123,7 @@
   }
 
   #container {
-    padding-top: 10%;
+    padding-top: 20%;
   }
 
   #grid-competencias {
