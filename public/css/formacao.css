@@ -1,19 +1,9 @@
-
 .formacao {
   min-height: 100vh;
   min-width: 100vw;
 
   background-image: url("../img/bg-image.jpg");
   background-size: 100vw 100vh;
-}
-
-
-.formacao .grid {
-  gap: 5em 5em;
-  grid-template-columns: 100px;
-  justify-content: center;
-  align-content: center;
-  margin-top: 15%;
 }
 
 .formacao .img:hover {
@@ -23,7 +13,6 @@
 .formacao a:hover {
   text-decoration: underline;
 }
-
 
 .formacao figure {
   text-align: center;
@@ -36,11 +25,11 @@
 }
 
 .formacao figure .ufop {
-  width: 115%;
+  width: 145%;
 }
 
 .formacao figure .ufvjm {
-  width: 160%;
+  width: 180%;
 }
 
 .formacao a {
@@ -50,5 +39,3 @@
   font-size: 1em;
   text-align: justify;
 }
-
-

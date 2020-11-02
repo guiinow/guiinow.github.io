@@ -1,20 +1,9 @@
 .competencias {
   padding: 2em;
-  min-height: 100vh;
-  min-width: 100vw;
+  height: 100vh;
+  width: 100vw;
 }
 
-.competencias .grid {
-  margin-top: 40px;
-  display: grid;
-  gap: 3em 3em;
-  grid-template-columns: 130px 130px ;
-  justify-content: center;
-  align-content: center;
-  font-size: larger;
-  height: 35em;
-  /* height: calc(100vh - 100px -1em); */
-}
 
 .competencias figure {
   text-align: center;

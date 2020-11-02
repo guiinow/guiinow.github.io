@@ -8,7 +8,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+  <link rel="shortcut icon" type="image/x-icon" href="./public/img/favicon.ico">
 
   <title>Guilherme Ferreira</title>
 
@@ -20,7 +20,7 @@
   <!-- Folhas de estilo -->
   <link rel="stylesheet" href="./public/css/main.css">
   <link rel="stylesheet" href="./public/css/sobre.css">
-  <!-- <link rel="stylesheet" href="./public/css/media-query.css"> -->
+  <link rel="stylesheet" href="./public/css/media-query.css">
   <link rel="stylesheet" href="./public/css/competencias.css">
   <link rel="stylesheet" href="./public/css/formacao.css">
   <link rel="stylesheet" href="./public/css/projetos.css">
@@ -48,7 +48,7 @@
 
   <header>
 
-    <nav class="nav navbar-expand-lg fixed-top p-3 mb-2 navbar-dark bg-dark justify-content-between" id="menu">
+    <nav class="nav navbar-expand-lg fixed-top p-3 mb-2 navbar-dark bg-dark justify-content-between" data-toggle="collapse" data-target=".navbar-collapse" id="menu">
       <a class="navbar-brand" href="#home">
         <figure>
           <i class="fas fa-house-user" title="Início"> guiinow</i>
@@ -107,7 +107,6 @@
 
     <h2 class="h2-pg">Sobre</h2>
   
-
     <p class="text-justify" >Desenvolvedor web na empresa Visão Jr. </p>
     <p class="text-justify" >Assessor financeiro, diretor de Marketing e cofundador da empresa Lourdes Moda e Lingerie.</p>
     <p class="text-justify" >Segundo tesoureiro do Rotaract Clube de João Monlevade na gestão 2020-2021.</p>
@@ -120,7 +119,7 @@
 
   <section class="competencias" id="competencias">
     <h2 class="h2-pg">Competências</h2>
-    <div class="grid">
+    <div id="grid-competencias">
       <figure>
         <i class="fab fa-js-square" aria-hidden="true"></i>
         <figcaption>JavaScript</figcaption>
@@ -166,7 +165,7 @@
   
   <section class="formacao" id="formacao">
     <h2 class="h2-pg">Formação</h2>
-      <div class="grid">
+      <div id="grid-formacao">
         <figure>
           <img class="img ufop" src="./public/img/ufop.png" alt="ufop">
           <figcaption><a href="https://decsi.ufop.br/engenharia-de-computa%C3%A7%C3%A3o" target="_blank">Engenharia de Computação (2019-Atual)</a></figcaption>
@@ -182,27 +181,32 @@
     <h2 class="h2-pg">Projetos</h2>
       <div id="grid-projetos">  
         <figure>
-          <img class="img iniciacao" src="./public/img/ic.jpg" alt="iniciação científica">
+          <img class="img iniciacao" title="Iniciação científica" src="./public/img/ic.jpg" alt="iniciação científica">
           <figcaption>Projeto de iniciação científica: anti-inflatório fitoterápico</figcaption>
         </figure>
         <figure>
-          <img class="img artigo" src="./public/img/artigo.png" alt="artigo">
-          <figcaption>Artigo publicado: <a href="https://www.tandfonline.com/doi/abs/10.1080/14786419.2019.1663512" target="_blank">Cecropia hololeuca: A new source of compounds with potential anti-inflammatory action</a></figcaption>
+          <img class="img artigo" title="Artigo publicado" src="./public/img/artigo.png" alt="artigo">
+          <figcaption><a href="https://www.tandfonline.com/doi/abs/10.1080/14786419.2019.1663512" target="_blank">Artigo publicado</a></figcaption>
         </figure>
 
         <figure>
-          <img class="img vtec" src="./public/img/visao-tec.png" alt="visao-tec">
-          <figcaption>Site desenvolvido no processo trainee da Visão Jr.<a href="https://guiinow.github.io/visaotec/" target="_blank"> V-tec</a></figcaption>
+          <img class="img vtec" title="V-tec" src="./public/img/visao-tec.png" alt="visao-tec">
+          <figcaption><a href="https://guiinow.github.io/visaotec/" target="_blank"> Site desenvolvido no processo trainee da Visão Jr</a></figcaption>
         </figure>
 
         <figure>
-          <img class="img lourdes" src="./public/img/lourdes.jpeg" alt="Lourdes moda e lingerie">
-          <figcaption>Lourdes moda e lingerie<a href="https://www.instagram.com/lourdesmodalingerie/" target="_blank"> @lourdesmodalingerie</a></figcaption>
+          <img class="img lourdes" title="Lourdes moda e lingerie" src="./public/img/lourdes.jpeg" alt="Lourdes moda e lingerie">
+          <figcaption><a href="https://www.instagram.com/lourdesmodalingerie/" target="_blank"> Lourdes moda e lingerie</a></figcaption>
         </figure>
 
         <figure>
-          <img class="img visao" src="./public/img/logo-visao.png" alt="Visão jr">
-          <figcaption>Visão Tecnologia e Sistemas <a href="https://www.visaojr.com.br/" target="_blank"> Visão Jr</a></figcaption>
+          <img class="img visao" title="Visão jr" src="./public/img/logo-visao.png" alt="Visão jr">
+          <figcaption><a href="https://www.visaojr.com.br/" target="_blank"> Visão Tecnologia e Sistemas </a></figcaption>
+        </figure>
+
+        <figure>
+          <img class="img rotaract" title="Rotaract" src="./public/img/rotaract.png" alt="Rotaract">
+          <figcaption><a href="https://www.instagram.com/rotaract_jm/" target="_blank">Rotaract</a></figcaption>
         </figure>
         
       </div>

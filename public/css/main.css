@@ -36,17 +36,10 @@ figcaption a{
   font-family: "Comfortaa", cursive;
   margin-bottom: 3em;
   margin-top: 20px;
-
+  text-shadow: 2px 2px rgb(61, 59, 59);
 }
 
-.grid {
-  grid-template-columns: 240px;
-  display: grid;
-  gap: 2em;
-  justify-content: center;
-  align-content: center;
-  height: calc(100vh - 100px -1em);
-}
+
 
 
 

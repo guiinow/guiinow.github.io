@@ -11,9 +11,7 @@ header {
   min-width: 100vw;
 }
 
-#container {
-  padding-top: 22%;
-}
+
 
 .img-perfil {
   border-radius: 700px 700px 700px 700px;
@@ -30,6 +28,7 @@ header {
   text-align: center;
   color: whitesmoke;
   font-family: "Comfortaa", cursive;
+  text-shadow: 2px 2px rgb(61, 59, 59);
 }
 
 .site-subtitle {
@@ -38,4 +37,5 @@ header {
   text-align: center;
   color: whitesmoke;
   font-family: "Kalam", cursive;
+  text-shadow: 1px 1px rgb(61, 59, 59);
 }

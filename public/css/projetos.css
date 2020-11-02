@@ -26,6 +26,10 @@
   width: 58%;
 }
 
+.projetos figure .rotaract {
+  margin-top: 10%;
+}
+
 
 .projetos .img {
   width: 100%;
@@ -42,11 +46,3 @@
   text-decoration: underline;
 }
 
-#grid-projetos {
-  grid-template-columns: 240px;
-  display: grid;
-  gap: 3em 3em;
-  justify-content: center;
-  align-content: center;
-  height: calc(100vh - 100px -1em);
-}

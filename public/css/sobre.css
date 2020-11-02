@@ -4,6 +4,7 @@
   color: rgba(241, 216, 216, 1);
   font-family: "Helvetica Neue", Helvetica;
   font-size: 1.7em;
+  text-shadow: 1px 1px rgb(61, 59, 59);
 }
 
 .sobre .fas {
@@ -29,7 +30,5 @@
 
 
 .text-justify {
-  border-left: 3px  solid black;
-  border-bottom: 3px solid black;
-
+  border: 3px  solid black;
 }
