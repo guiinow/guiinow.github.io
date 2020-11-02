@@ -17,7 +17,7 @@
   width: 106%;
 }
 .projetos figure .vtec {
-  width: 125%;
+  width: 110%;
 }
 .projetos figure .lourdes {
   width: 111%;
@@ -43,7 +43,7 @@
 }
 
 #grid-projetos {
-  grid-template-columns: 240px 240px 240px;
+  grid-template-columns: 240px;
   display: grid;
   gap: 3em 3em;
   justify-content: center;

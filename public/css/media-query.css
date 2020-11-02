@@ -1,4 +1,15 @@
-/* se a tela tiver pelo menos 400px vai carregar estes estilos*/
+/* 
+@media (max-width: 320px) {
+  .home {
+    width: 193vw;
+    height: 100vh;
+    background-image: url("../img/landscape.jpg");
+  /* margin-top: 27%;
+  }
+
+
+}
+
 @media (min-width: 400px) {
 
   body {
@@ -121,4 +132,13 @@
   .img-perfil {
     size: 100px;
   }
-}
+} */
+
+
+
+
+/* ........................................................................................ */
+
+/* @media (max-width: 600px) {
+
+} */

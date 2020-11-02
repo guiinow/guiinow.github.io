@@ -9,9 +9,8 @@
 
 
 .formacao .grid {
-  gap: 5em 16em;
-  margin-top: 30px;
-  grid-template-columns: 150px 150px;
+  gap: 5em 5em;
+  grid-template-columns: 100px;
   justify-content: center;
   align-content: center;
   margin-top: 15%;

@@ -11,6 +11,7 @@ html {
 
 body {
   height: 100vh;
+  width: 100vw;
   font-size: 12px;
   overflow-x: hidden;
 }
@@ -20,8 +21,7 @@ body {
 #sobre,
 #competencias {
   padding: 5em;
-
-}
+} 
 
 figcaption a{
   font-size: 17px;
@@ -36,6 +36,7 @@ figcaption a{
   font-family: "Comfortaa", cursive;
   margin-bottom: 3em;
   margin-top: 20px;
+
 }
 
 .grid {

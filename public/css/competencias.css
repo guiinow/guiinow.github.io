@@ -8,7 +8,7 @@
   margin-top: 40px;
   display: grid;
   gap: 3em 3em;
-  grid-template-columns: 130px 130px 130px 130px;
+  grid-template-columns: 130px 130px ;
   justify-content: center;
   align-content: center;
   font-size: larger;

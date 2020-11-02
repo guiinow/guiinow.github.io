@@ -1,5 +1,4 @@
 header {
-  /* height: 100vh; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -8,11 +7,12 @@ header {
 .home {
   background-image: url(../img/landscape.jpg);
   background-size: 100vw 100vh;
-  height: 100vh;
+  min-height: 100vh;
+  min-width: 100vw;
 }
 
 #container {
-  padding-top: 15%;
+  padding-top: 22%;
 }
 
 .img-perfil {

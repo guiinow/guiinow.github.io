@@ -1,5 +1,5 @@
-.navbar-nav {
-  margin-left: 60%;
+.nav {
+  width: 100vw;
 }
 
 .nav-link {
@@ -16,4 +16,13 @@ a {
   font-size: 1.5em;
   font-family: "Helvetica Neue", Helvetica;
   transition: background-color 0.2s;
+}
+
+/*Scrolled Menu*/
+.scrolled {
+  background-color: #d8cce0;
+}
+
+.menu.scrolled .discreto {
+  color: #202026 !important;
 }
