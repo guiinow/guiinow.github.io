@@ -37,9 +37,16 @@ figcaption a{
   margin-bottom: 3em;
   margin-top: 20px;
   text-shadow: 2px 2px rgb(61, 59, 59);
+  
 }
 
+.h2-pg:hover {
+  transform: scale(1.09);
+}
 
+.h2-pg:hover {
+  text-decoration: underline;
+}
 
 
 

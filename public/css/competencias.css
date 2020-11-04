@@ -25,3 +25,8 @@ figcaption {
   font-size: medium;
   text-align: center;
 }
+
+#grid-competencias figure:hover {
+  transform: scale(1.4);
+  
+}
