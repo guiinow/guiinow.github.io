@@ -30,5 +30,10 @@
 
 
 .text-justify {
-  border: 3px  solid black;
+  border-left: 3px  solid black;
+  border-bottom: 3px  solid black;
+}
+
+.text-justify:hover {
+  background-color: rgba(73, 73, 68, 0.61);
 }
