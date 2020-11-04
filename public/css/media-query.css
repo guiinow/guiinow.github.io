@@ -36,6 +36,7 @@
     align-content: center;
     height: calc(100vh - 100px -1em);
   }
+ 
 }
 
 @media (min-width: 768px) {
@@ -72,6 +73,15 @@
     align-content: center;
     height: calc(100vh - 100px -1em);
   }
+
+  #meu-nome {
+    font-size: 4em;
+  }
+
+  #meu-subtitulo {
+    font-size: 2em;
+  }
+
 }
 
 @media (min-width: 1024px) {
@@ -115,6 +125,15 @@
     align-content: center;
     height: calc(100vh - 100px -1em);
   }
+
+  #meu-nome {
+    font-size: 5em;
+  }
+
+  #meu-subtitulo {
+    font-size: 2em;
+  }
+  
 }
 
 @media (min-width: 1440px) {
@@ -158,5 +177,13 @@
   #barra-menu {
     margin-left: 20%;
     margin-right: 20%;
+  }
+
+  #meu-nome {
+    font-size: 6em;
+  }
+
+  #meu-subtitulo {
+    font-size: 3em;
   }
 }
