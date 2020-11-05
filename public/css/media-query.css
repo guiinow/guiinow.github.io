@@ -36,7 +36,13 @@
     align-content: center;
     height: calc(100vh - 100px -1em);
   }
- 
+  
+    #picpay{
+      margin-top: 5.5em;
+      height: 5.5em;
+      width: 5.5em;
+      margin-left: 1em;
+    } 
 }
 
 @media (min-width: 768px) {
@@ -80,6 +86,13 @@
 
   #meu-subtitulo {
     font-size: 2em;
+  }
+  
+  #picpay{
+    margin-top: .5em;
+    height: 5.5em;
+    width: 5.5em;
+    margin-left: 1em;
   }
 
 }
@@ -132,6 +145,13 @@
 
   #meu-subtitulo {
     font-size: 2em;
+  }
+
+  #picpay{
+    margin-top: 4.5em;
+    height: 5.5em;
+    width: 5.5em;
+    margin-left: 1em;
   }
   
 }
@@ -186,4 +206,5 @@
   #meu-subtitulo {
     font-size: 3em;
   }
+
 }

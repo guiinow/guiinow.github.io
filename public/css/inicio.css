@@ -12,7 +12,6 @@ header {
 }
 
 
-
 .img-perfil {
   border-radius: 700px 700px 700px 700px;
   display: block;
@@ -39,3 +38,11 @@ header {
   font-family: "Kalam", cursive;
   text-shadow: 1px 1px rgb(61, 59, 59);
 }
+
+
+/* #picpay{
+  margin-top: 5em;
+  height: 5.5em;
+  width: 5.5em;
+  margin-left: 1em;
+} */
