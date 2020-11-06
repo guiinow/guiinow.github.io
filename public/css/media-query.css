@@ -38,10 +38,10 @@
   }
   
     #picpay{
-      margin-top: 5.5em;
-      height: 5.5em;
-      width: 5.5em;
-      margin-left: 1em;
+      margin-top: 3.3em;
+      height: 3.5em;
+      width: 3.5em;
+      margin-left: .5em;
     } 
 }
 
@@ -89,9 +89,9 @@
   }
   
   #picpay{
-    margin-top: .5em;
-    height: 5.5em;
-    width: 5.5em;
+    margin-top: 0em;
+    height: 4.5em;
+    width: 4.5em;
     margin-left: 1em;
   }
 
@@ -148,9 +148,8 @@
   }
 
   #picpay{
-    margin-top: 4.5em;
-    height: 5.5em;
-    width: 5.5em;
+    height: 4.5em;
+    width: 4.5em;
     margin-left: 1em;
   }
   
@@ -205,6 +204,13 @@
 
   #meu-subtitulo {
     font-size: 3em;
+  }
+
+  #picpay{
+    margin-top: 14.5em;
+    height: 5.5em;
+    width: 5.5em;
+    margin-left: 1em;
   }
 
 }
