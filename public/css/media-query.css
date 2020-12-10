@@ -37,12 +37,6 @@
     height: calc(100vh - 100px -1em);
   }
   
-    #picpay{
-      margin-top: 1em;
-      height: 3.5em;
-      width: 3.5em;
-      margin-left: .5em;
-    } 
 }
 
 @media (min-width: 768px) {
@@ -87,13 +81,7 @@
   #meu-subtitulo {
     font-size: 2em;
   }
-  
-  #picpay{
-    margin-top: 0em;
-    height: 4.5em;
-    width: 4.5em;
-    margin-left: 1em;
-  }
+
 
 }
 
@@ -147,11 +135,6 @@
     font-size: 2em;
   }
 
-  #picpay{
-    height: 4.5em;
-    width: 4.5em;
-    margin-left: 1em;
-  }
   
 }
 
@@ -206,11 +189,5 @@
     font-size: 3em;
   }
 
-  #picpay{
-    margin-top: 1em;
-    height: 5.5em;
-    width: 5.5em;
-    margin-left: 1em;
-  }
 
 }
