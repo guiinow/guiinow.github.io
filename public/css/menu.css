@@ -16,8 +16,6 @@
 
 .menu li:hover {
   background-color: rgba(242, 242, 250, 0.8);
-  padding-left: 4px;
-  padding-right: 4px;
 }
 .menu ul {
   display: flex;

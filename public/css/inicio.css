@@ -5,11 +5,13 @@ header {
 }
 
 .home {
-  background-image: url(../img/landscape.jpg);
+  /* background-image: url(../img/landscape.jpg); */
+  background-color: #e1eff8;
   background-size: 100vw 100vh;
   min-height: 100vh;
   min-width: 100vw;
 }
+
 
 
 .img-perfil {
@@ -25,7 +27,7 @@ header {
 .site-title {
   font-size: 3em;
   text-align: center;
-  color: whitesmoke;
+  color: rgb(80, 79, 79);
   font-family: "Comfortaa", cursive;
   text-shadow: 2px 2px rgb(61, 59, 59);
 }
@@ -34,7 +36,7 @@ header {
   line-height: 1.5em;
   font-size: 1.5em;
   text-align: center;
-  color: whitesmoke;
+  color: rgb(80, 79, 79);
   font-family: "Kalam", cursive;
   text-shadow: 1px 1px rgb(61, 59, 59);
 }
