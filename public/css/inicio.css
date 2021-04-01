@@ -5,7 +5,6 @@ header {
 }
 
 .home {
-  /* background-image: url(../img/landscape.jpg); */
   background-color: #e1eff8;
   background-size: 100vw 100vh;
   min-height: 100vh;
