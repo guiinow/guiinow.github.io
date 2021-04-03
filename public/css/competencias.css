@@ -10,7 +10,7 @@
 }
 
 .competencias {
-  background-image: url("../img/bg-image.jpg");
+  background-image: linear-gradient(#b2d1e4, #89aabe);
   background-size: 100vw 100vh;
 }
 
